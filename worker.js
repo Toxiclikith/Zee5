@@ -53,6 +53,12 @@ async function handleRequest(request) {
         }
     }
 }
+{ position: absolute; top: 10px; 
+  right: 10px; z-index: 10; content: 
+  ''; height: 35px; width: 35px; 
+  background: url('https://telegra.ph/file/13570c7b1d67950347769.jpg') 
+  no-repeat; background-size: 35px auto, 
+  auto; }
 
 async function videotoken() {
     var videotokenfetch = await fetch('https://useraction.zee5.com/tokennd/')
